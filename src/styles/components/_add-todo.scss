@@ -1,0 +1,19 @@
+// Add todo error
+.add-todo-error {
+    font-style: italic;
+    font-size: $m-size;
+    margin: $m-size 0 0 0;
+    text-align: center;
+}
+
+// Add todo 
+.add-todo {
+    display: flex;
+    padding: $m-size;
+
+    &__input {
+        flex-grow: 1;
+        margin-right: $s-size;
+        padding: $s-size;
+    }
+}

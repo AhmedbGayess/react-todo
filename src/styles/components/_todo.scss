@@ -1,0 +1,11 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    padding: $s-size;
+
+
+    &__text {
+        font-size: $l-size;
+    }
+}

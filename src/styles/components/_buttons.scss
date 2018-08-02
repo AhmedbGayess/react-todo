@@ -1,0 +1,18 @@
+.button {
+    background: $color-secondary;
+    border: none;
+    color: white; 
+    font-weight: 500;
+    
+    &--empty {
+        padding: $l-size;
+        font-weight: 600;
+        display: block;
+        margin: 0 auto;
+        margin-bottom: $xl-size; 
+    }
+
+    &--delete {
+        padding: $m-size;
+    }
+}
